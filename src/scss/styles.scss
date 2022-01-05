@@ -1,19 +1,9 @@
-body {
-  background: peru;
-  a {
-    color: white;
-  }
+.wrapper {
+  display: flex; //box의 부모가 flex container가 됨
   .box {
-    background: blue;
+    width: 200px;
+    height: 200px;
+    background: peru;
     color: white;
-    width: 400px;
-    height: 400px;
-    display: inline-block;
-    &:nth-child(2) {
-      margin-left: 10px;
-    }
-    &:nth-child(3) {
-      margin-left: 70px;
-    }
   }
 }

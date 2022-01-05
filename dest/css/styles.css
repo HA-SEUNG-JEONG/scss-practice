@@ -1,1 +1,1 @@
-body{background:peru}body .box,body a{color:#fff}body .box{background:#00f;width:400px;height:400px;display:inline-block}body .box:nth-child(2){margin-left:10px}body .box:nth-child(3){margin-left:70px}
+.wrapper{display:flex}.wrapper .box{width:200px;height:200px;background:peru;color:#fff}
