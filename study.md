@@ -25,4 +25,18 @@
 - space-around: box 옆 주변 공간을 같게 만든다.
 - 기본 방향이 row면 수평 방향이 main-axis , 수직 방향이 cross-axis
 - align-items:center는 가운데가 아님, 왜냐하면 wrapper의 높이와 box의 높이가 동일하기 때문
-- align-items:stretch의 경우 자식 요소에 높이가 없을 경우 전체 높이가지 쭉 뻗어서 채워진다.
+
+```html
+<div class="wrapper">
+  <div class="box">1</div>
+  <div class="box">2</div>
+  <div class="box">3</div>
+</div>
+```
+
+- align-items:stretch의 경우 자식 요소에 높이가 없을 경우 전체 높이까지 쭉 뻗어서 채워진다.
+
+#4.
+
+- flex-direction: column 👉 main-axis: 수직, cross-axis: 수평
+- flex-direction: row (default) 👉 main-axis: 수평, cross-axis: 수직

@@ -1,1 +1,1 @@
-.wrapper{display:flex;justify-content:space-around;align-items:stretch;height:100vh}.wrapper .box{width:200px;background:peru;color:#fff}
+.wrapper{display:flex;flex-direction:column;justify-content:center;align-items:stretch;height:200vh}.wrapper .box{height:200px;background:peru;color:#fff}

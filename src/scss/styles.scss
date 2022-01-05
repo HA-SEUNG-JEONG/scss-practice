@@ -1,10 +1,11 @@
 .wrapper {
   display: flex; //box의 부모가 flex container가 됨
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
   align-items: stretch;
-  height: 100vh;
+  height: 200vh;
   .box {
-    width: 200px;
+    height: 200px;
     background: peru;
     color: white;
   }
