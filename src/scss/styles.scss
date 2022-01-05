@@ -3,4 +3,17 @@ body {
   a {
     color: white;
   }
+  .box {
+    background: blue;
+    color: white;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    &:nth-child(2) {
+      margin-left: 10px;
+    }
+    &:nth-child(3) {
+      margin-left: 70px;
+    }
+  }
 }
