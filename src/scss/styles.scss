@@ -1,18 +1,16 @@
 .father {
   display: flex; //box의 부모가 flex container가 됨
-  justify-content: space-around;
   height: 200vh;
+  align-content: space-around;
+  justify-content: space-around;
+  flex-wrap: wrap;
   .child {
+    display: flex;
+    flex-direction: row-reverse;
     width: 200px;
     height: 200px;
     background: peru;
     font-size: 30px;
     color: white;
-    &:nth-child(1) {
-      order: 2;
-    }
-    &:nth-child(2) {
-      order: 3;
-    }
   }
 }

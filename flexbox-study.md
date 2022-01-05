@@ -46,3 +46,18 @@
 - align-self: cross-axis에서 움직이는데 특정한 child에 전달 가능 즉,cross axis 방향에 있는 item의 위치를 바꾼다.
 
 - order: child에게만 줄 수 있는 속성, 기본값은 0 ,HTML에서는 바뀌지 않는다.
+
+- align-self,order는 부모의 높이가 지정되어있어야 적용이 된다.
+
+#6.
+
+- flexbox는 item들이 같은 줄에 있도록 유지하며, width를 신경쓰지 않는다.
+
+- flex-wrap
+
+-기본값은 flex-wrap:nowrap
+-wrap은 flexbox에게 child의 width를 유지하라고 이야기하는 것
+
+- align-content
+
+-justify-content와 비슷하지만 line에 대한 것,즉 line(cross-axis)을 변경한다.
