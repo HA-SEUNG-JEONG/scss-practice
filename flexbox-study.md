@@ -71,3 +71,10 @@
   -flex-grow: 기본값은 0 ,남아있는 빈 공간을 가져오거나 가질 수 있는만큼 커진다.
 
   -반응형 디자인을 할 때 유용함
+
+#8.
+
+- flex-basis
+  -main-axis에서 작용
+  -child에서 적용되는 property , width랑 같아보이지만, element의 처음 크기를 주는 게 width랑 다른 점이고 실제 크기는 아니다.
+  -flex-grow와 flex-shrink에 의해 바뀔 수도 있다.

@@ -3,11 +3,11 @@
   justify-content: space-around;
   width: 100%;
   .child {
-    width: 300px;
-    height: 200px;
+    flex-basis: 300px;
     background: peru;
     color: white;
     display: flex;
+    font-size: 50px;
     justify-content: center;
     align-items: center;
     &:nth-child(2) {
