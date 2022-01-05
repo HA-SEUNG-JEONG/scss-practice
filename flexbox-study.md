@@ -61,3 +61,13 @@
 - align-content
 
 -justify-content와 비슷하지만 line에 대한 것,즉 line(cross-axis)을 변경한다.
+
+#7.
+
+- flex-grow,flex-shrink
+
+  -flex-shrink:기본적으로 element의 행동을 정의하는데,기본값은 1
+
+  -flex-grow: 기본값은 0 ,남아있는 빈 공간을 가져오거나 가질 수 있는만큼 커진다.
+
+  -반응형 디자인을 할 때 유용함

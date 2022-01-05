@@ -1,1 +1,1 @@
-.father{display:flex;height:200vh;align-content:space-around;justify-content:space-around;flex-wrap:wrap}.father .child{display:flex;flex-direction:row-reverse;width:200px;height:200px;background:peru;font-size:30px;color:#fff}
+.father{display:flex;justify-content:space-around;width:100%}.father .child{width:300px;height:200px;background:peru;color:#fff;display:flex;justify-content:center;align-items:center}.father .child:nth-child(2){background:#000;flex-grow:1}
