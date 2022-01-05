@@ -40,3 +40,9 @@
 
 - flex-direction: column 👉 main-axis: 수직, cross-axis: 수평
 - flex-direction: row (default) 👉 main-axis: 수평, cross-axis: 수직
+
+#5.
+
+- align-self: cross-axis에서 움직이는데 특정한 child에 전달 가능 즉,cross axis 방향에 있는 item의 위치를 바꾼다.
+
+- order: child에게만 줄 수 있는 속성, 기본값은 0 ,HTML에서는 바뀌지 않는다.

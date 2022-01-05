@@ -1,1 +1,1 @@
-.wrapper{display:flex;flex-direction:column;justify-content:center;align-items:stretch;height:200vh}.wrapper .box{height:200px;background:peru;color:#fff}
+.father{display:flex;justify-content:space-around;height:200vh}.father .child{width:200px;height:200px;background:peru;font-size:30px;color:#fff}.father .child:nth-child(1){order:2}.father .child:nth-child(2){order:3}
