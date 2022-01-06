@@ -76,5 +76,6 @@
 
 - flex-basis
   -main-axis에서 작용
+  -flex-direction을 반대로 할 경우 마치 flex-basis는 마치 height처럼 작용한다.
   -child에서 적용되는 property , width랑 같아보이지만, element의 처음 크기를 주는 게 width랑 다른 점이고 실제 크기는 아니다.
   -flex-grow와 flex-shrink에 의해 바뀔 수도 있다.
