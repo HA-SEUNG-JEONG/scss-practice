@@ -67,3 +67,9 @@ row에 auto를 사용하면 row의 값을 따로 지정해주지 않아도 알�
 
 grid-auto-flow
 기본값은 `row`, row가 끝날 때 새로운 `row`를 만들지 새로운 `column`을 만들지 결정한다.
+
+#9.
+
+minmax(minvalue,maxvalue)
+
+- element 크기가 가능한 한 엄청 크길 원하는데, 동시에 엄청 작게 되는 것은 원하지 않을 때 사용
