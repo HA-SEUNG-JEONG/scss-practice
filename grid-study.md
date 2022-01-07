@@ -37,8 +37,24 @@ repeat은 grid-template에서 적용되지 않는다.
 justify-items, align-items: 부모에게 있는 property
 
 justify-items의 기본값은 `stretch`
+justify-content와의 차이점:
+grid는 고정 grid 내 아이템만 이동
+
 align-items의 기본값도 `stretch`
 
 위 두가지를 대체할 수 있는 방법으로, `place-items`가 있다.
 
-place-items : 수직/수평
+place-items : 수직 수평
+
+#7.
+
+align-content: 수직으로 grid를 움직임
+grid-template에서 높이를 fr로 설정하고 align-content를 stretch로 하면 쭉 늘어난다.
+
+place-content: 수직 수평
+
+justify-content
+align-content
+place-content
+
+이 3가지는 stretch가 먹히지 않는다. 이럴때는 height를 주고 각 cell에 fr을 쓰면 비슷하게 된다.
