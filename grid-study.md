@@ -58,3 +58,12 @@ align-content
 place-content
 
 이 3가지는 stretch가 먹히지 않는다. 이럴때는 height를 주고 각 cell에 fr을 쓰면 비슷하게 된다.
+
+#8.
+
+place-self,align-self,justify-self: child에만 적용되는 property
+
+row에 auto를 사용하면 row의 값을 따로 지정해주지 않아도 알아서 정렬해준다.
+
+grid-auto-flow
+기본값은 `row`, row가 끝날 때 새로운 `row`를 만들지 새로운 `column`을 만들지 결정한다.
