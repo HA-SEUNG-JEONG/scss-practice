@@ -4,24 +4,17 @@
   height: 50vh;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
-  grid-template: "header header header header" 1fr // "이름" row 높이
-    "content content content nav" 2fr // "이름" row 높이
-    "footer footer footer footer" 1fr / 1fr 1fr 1fr 1fr; // "이름" row 높이/각 column의 너비
-  gap: 10px;
+  place-items: center center;
   .header {
     background-color: #2ecc71;
-    grid-area: header;
   }
   .content {
     background-color: #3498db;
-    grid-area: content;
   }
   .nav {
     background-color: #8e44ad;
-    grid-area: nav;
   }
   .footer {
     background-color: #f39c12;
-    grid-area: footer;
   }
 }

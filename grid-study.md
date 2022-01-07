@@ -29,3 +29,16 @@
 #5.
 
 fr은 높이가 없고, 기본적으로 가능한만큼의 공간을 차지한다. 즉 fr을 쓸 때는 height를 명시해주어야 한다.
+
+repeat은 grid-template에서 적용되지 않는다.
+
+#6.
+
+justify-items, align-items: 부모에게 있는 property
+
+justify-items의 기본값은 `stretch`
+align-items의 기본값도 `stretch`
+
+위 두가지를 대체할 수 있는 방법으로, `place-items`가 있다.
+
+place-items : 수직/수평
