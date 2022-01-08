@@ -73,3 +73,9 @@ grid-auto-flow
 minmax(minvalue,maxvalue)
 
 - element 크기가 가능한 한 엄청 크길 원하는데, 동시에 엄청 작게 되는 것은 원하지 않을 때 사용
+
+#10.
+
+` grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));` : width가 늘어나면 빈 column들로 row를 채움
+
+` grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));` : width가 늘어나면 element를 늘려서 row에 맞게 해줌
