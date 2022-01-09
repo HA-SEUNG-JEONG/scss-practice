@@ -1,9 +1,11 @@
-@import "_buttons";
+@import "_mixins";
 
-a {
-  @extend %button;
-}
-
-button {
-  @extend %button;
+h1 {
+  color: red;
+  @include responsive(iphone) {
+    color: yellow;
+  }
+  @include responsive(ipad-l) {
+    color: black;
+  }
 }
