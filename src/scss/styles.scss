@@ -1,15 +1,17 @@
-.grid {
-  color: white;
-  display: grid;
-  gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(20px, max-content));
-  grid-auto-rows: 100px;
-  margin-bottom: 30px;
-  .item:nth-child(odd) {
-    background-color: #2ecc71;
-  }
+@import "_variables";
 
-  .item:nth-child(even) {
-    background-color: #3498db;
+.box {
+  margin-top: 20px;
+  h2 {
+    color: blue;
+    &:hover {
+      color: red;
+    }
+  }
+  button {
+    color: $bg;
+  }
+  &:hover {
+    background-color: wheat;
   }
 }

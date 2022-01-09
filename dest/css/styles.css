@@ -1,1 +1,1 @@
-.grid{color:#fff;display:-ms-grid;display:grid;gap:5px;grid-template-columns:repeat(auto-fit,minmax(20px,-webkit-max-content));grid-template-columns:repeat(auto-fit,minmax(20px,max-content));grid-auto-rows:100px;margin-bottom:30px}.grid .item:nth-child(odd){background-color:#2ecc71}.grid .item:nth-child(even){background-color:#3498db}
+.box{margin-top:20px}.box h2{color:#00f}.box h2:hover{color:red}.box button{color:#e7473c}.box:hover{background-color:wheat}
