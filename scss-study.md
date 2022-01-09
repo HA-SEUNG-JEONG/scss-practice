@@ -11,3 +11,9 @@ scss에서 variable을 만드는 방법은 src/scss 폴더에 `_variables.scss` 
 `@mixin name`으로 작성하고, name은 어떤걸로 지어도 상관없다.
 
 argument를 보낼 수도 있다.
+
+### Extends
+
+같은 코드를 중복하고 싶지 않을 때 사용
+
+page에서 분리해야하는 element들이 많을 때 유용
